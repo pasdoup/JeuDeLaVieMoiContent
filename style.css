@@ -1,0 +1,28 @@
+.containerTab {
+  display: none;
+}
+
+#containerTab1 {
+  display: block;
+}
+
+.tabControl ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.tabControl ol li {
+  position: relative;
+  display: block;
+  padding: 8px 15px;
+  cursor: pointer;
+  min-width: 100px;
+  background: #e6e6e6;
+  text-align: center;
+  border-radius: 15px 15px 0px 0px;
+}
+.tabActive{
+  background: #cacaca !important;
+}

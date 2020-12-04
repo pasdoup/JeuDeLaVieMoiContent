@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Cellular automata</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <nav class="tabControl">
+    <ol>
+      <li id="Tab2" class="tabClass" onclick="generer(2)">New</li>
+    </ol>
+  </nav>
+  <div class="container">
+    <div id="containerTab1" class="containerTab">
+      <canvas id="canvasWolfram"></canvas>
+
+    </div>
+    <div id="containerTab2" class="containerTab">
+      <canvas id="canvasConnway"></canvas>
+    </div>
+  </div>
+  <script src="generer.js"></script>
+  <script src="GOL.js"></script>
+</body>
+
+</html>
